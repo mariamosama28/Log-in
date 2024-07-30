@@ -1,0 +1,104 @@
+body{
+    background: url(../images/background-image.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+.login-form{
+    position: relative;
+    width: 400px;
+    /* min-height: 500px; */
+    border-radius: 10px;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sign-in-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sign-in-text h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sign-in-text span
+,a{
+    font-size: .9em;
+    font-weight: 500;
+}
+.sign-in-options{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.option {
+    border: 1px solid #bfc9d6;
+    border-radius: 10px;
+    padding: 5px 0;
+    padding-inline: 25px;
+}
+.or{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+hr{
+    border: rgba(106, 114, 130, 0.3) 1px solid;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-inline: 40px;
+}
+.text{
+    font-size: .9em;
+    font-weight: 500;
+}
+.password label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+label a{
+    font-size: smaller;
+}
+.password input
+,.email input
+,button{
+    width: 100%;
+}
+input{
+    background-color: var();
+    border: 1px solid #bfc9d6;
+    border-radius: 10px;
+    padding: 10px 0;
+    padding-inline: 10px;
+}
+button{
+    background-color: var(--bg-btn-color);
+    border: 1px solid #bfc9d6;
+    border-radius: 10px;
+    padding: 10px 0;
+    padding-inline: 10px;
+    color: #fafbfb;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}

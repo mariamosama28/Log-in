@@ -1,0 +1,16 @@
+@media (max-width: 520px) {
+    .login-form{
+        width: 100%;
+        margin: auto;
+    }
+    .sign-up{
+        display: flex;
+        flex-direction: column;
+     
+        align-items: center;
+    }
+    .sign-in-options{
+        flex-direction: column;
+    }
+    
+}
